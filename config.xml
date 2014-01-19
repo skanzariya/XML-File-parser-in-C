@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+
+  <!-- Information about file -->
+	<name>A simple xml config file</name>
+	<desc>A libxml based config file parser in C</desc>
+	<author>Suresh Kanzariya</author>
+	<date>9 July 2010</date>
+	<email>skanzariya@gmail.com</email>
+  <tweet>http://twitter.com/suresh_kanzaria</tweet>
+
+  <!-- Actual data start from here  -->
+	<data>
+		<Location>Somewhere in the world</Location>
+		<IpAddress>0.0.0.0</IpAddress>
+		<Path>Where to GO</Path>
+		<WhatElse>A more will come to you soon...</WhatElse>
+		<AddMore>Let me know, if you like it</AddMore>
+	</data>
+</main>

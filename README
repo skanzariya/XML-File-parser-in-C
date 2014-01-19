@@ -1,0 +1,18 @@
+a XML File parser
+
+What is it?
+A simple xml config file parser in C, Normally we use .ini or key=value based config file for our daemon/program, Here I have tried to keep xml as a config file, Because we found xml supports in almost all other language, so we can use the value in other program/application.
+
+How to install
+gcc -Wall -O2 -o Parser parser.c `xml2-config --cflags --libs`
+
+Hot to use it
+./Parser config.xml
+
+ADD...
+You can modify the source code and use it the way you want.
+
+
+If you like this simple daemon, let me know
+http://twitter.com/suresh_kanzaria
+skanzariya at gmail dot com
